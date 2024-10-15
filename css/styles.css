@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+.header-block h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em; /* Large size for the main header */
+    color: #ffffff; /* White color for better contrast */
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+
+.header-block h6 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1em; /* Smaller size to differentiate from h1 */
+    color: #b0c4de; /* Lighter shade for a subtle appearance */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5px 0;
+    opacity: 0.9; /* Slightly faded to reduce emphasis */
+}
+
+
+.modification-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modification-content {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.text-section {
+    width: 70%; /* Increased width for better readability */
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(1, 1, 0, 0.05); /* Light background for contrast */
+    border-radius: 5px; /* Softer edges */
+}
+
+.image-section {
+    width: 25%; /* Adjusted width for images */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-height: 400px; /* Set a max height to prevent large images from expanding the container */
+    max-width: 400px;
+    overflow: hidden; /* Ensure content doesn't overflow the container */
+    background-color: #f5f5f5; /* Light background to help center smaller images */
+}
+
+.image {
+    display: none; /* Hide all images initially */
+    width: 100%;
+    height: 100%;
+    max-height: 400px; /* Fixed height for images */
+    max-width: 400px;
+    object-fit: cover; /* Ensure images cover the designated area without distortion */
+    border-radius: 5px;
+}
+
+.image.active {
+    display: block; /* Only display the active image */
+}
+
+h2 {
+    
+    text-align: center;
+
+    margin-top: 20px;
+    color: #1e90ff;
+    padding-left: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+    padding: 10px 0;
+    color: #1e90ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h3 a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #4682b4; /* Slightly different color on hover for better interaction */
+}
+
+p {
+    padding: 0 20px;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0 20px;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+
+
+
+.header-block {
+    text-align: center;
+    background: linear-gradient(135deg, #1e90ff, #87ceeb);
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+.three-d-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #ccc, 
+                 2px 2px 0px #bbb, 
+                 3px 3px 0px #aaa, 
+                 4px 4px 0px #999, 
+                 5px 5px 0px #888, 
+                 6px 6px 0px #777, 
+                 7px 7px 0px #666, 
+                 8px 8px 0px #555;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 3D Button Style */
+button {
+    background: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 5px #0f6cbf;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 3px #0f6cbf;
+    transform: translateY(2px);
+}
+
+button:active {
+    box-shadow: 0 0 #0f6cbf;
+    transform: translateY(5px);
+}
+.wrapup-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-icon {
+    fill: white; /* Set the color for SVG icons */
+}
+
+
+.social-icon {
+    width: 24px; /* Adjust as needed */
+    height: 24px; /* Adjust as needed */
+    margin-right: 8px; /* Space between icon and text */
+    transition: filter 0.3s ease; /* Smooth effect on hover */
+    
+}
+
+.social-item:hover .social-icon {
+    filter: brightness(0) invert(1); /* Invert colors on hover if needed */
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #7019e9; /* Change this color as you wish */
+}
+
+.company-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
